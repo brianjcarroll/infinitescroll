@@ -14,3 +14,17 @@ new Y.Squarespace.InfiniteScroll({
   loadOnClick: null               // Default behavior is ajax request on scroll to bottom, set this to true to include a load more button instead
 });
 </pre>
+
+##how to use it
+* Copy or download infinitescroll.js and add it to your /scripts folder in Developer Mode
+* include 'infinite-scroll' in the list of dependencies for YUI (usually found in scripts/site.js).  Example:
+<pre>
+  YUI().use('infinite-scroll', function(Y){
+    Y.on('domready', function() {
+      new Y.Squarespace.InfiniteScroll({
+        // your configuration options here
+      });
+    });
+  });
+</pre>
+* You're good to go!
