@@ -13,6 +13,4 @@ new Y.Squarespace.InfiniteScroll({
   ajaxDelay: null,                // Include a delay time for ajax, in seconds (default is 0, one second is 1)
   loadOnClick: null               // Default behavior is ajax request on scroll to bottom, set this to true to include a load more button instead
 });
-
-
 </pre>
